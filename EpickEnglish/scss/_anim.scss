@@ -1,0 +1,50 @@
+//MAIN SCREEN, HEADER
+%header_links {
+    li a:hover {
+        color: #778f9b;
+        transition: .4s;
+    }
+}
+
+%header_button {
+    .button:hover {
+        background-color: $purple-color;
+        color: $white-color;
+        transition: .4s;
+    }
+}
+
+//MAIN SCREEN, OFFER
+%anim_on_button {
+    .button:hover {
+        background-color: $purple-color;
+        color: $white-color;
+        cursor: pointer;
+        transition: .4s;
+    }
+}
+
+//COURSES
+%option {
+    .route:hover {
+        box-shadow: 8px 8px 0 5px $purple-color;
+        background-color: rgb(252, 252, 252);
+        transition: .4s;
+        cursor: pointer;
+        @media (max-width: $breakpoint-note) {
+            box-shadow: 4px 4px 0 2px $purple-color;
+        }
+        @media (max-width: $breakpoint-table) {
+            box-shadow: 3px 3px 0 1px $purple-color;
+        }
+    }
+}
+
+//BASEMENT
+%connection {
+    p:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        transition: .4s;
+    }
+}

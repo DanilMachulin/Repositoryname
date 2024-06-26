@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.frame {
+    padding: 50px 480px;
+}
+
+h1 {
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #263238;
+    margin: 10px 0px;
+}
+
+p {
+    color: #37474F;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.advertising {
+    width: 100%;
+    padding: 20px 480px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    color: rgb(92, 92, 92);
+}
+
+.developers a {
+    color: rgb(92, 92, 92);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.developers a:hover {
+    color: #fff;
+}
+
+.back {
+    background-color: #111;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-weight: 600;
+    top: 50px;
+    right: 100px;
+    position: absolute;
+}
+
+.back a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.back:hover {
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.back a:hover {
+    color: #111;
+}
+
+@media (max-width: 1440px) {
+    .frame {
+        padding: 50px 360px;
+    }
+    .advertising {
+        padding: 20px 360px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .frame {
+        padding: 50px 220px;
+    }
+    .advertising {
+        padding: 20px 220px;
+        font-size: 13px;
+    }
+    .back {
+        padding: 10px 15px;
+        font-size: 13px;
+        top: 50px;
+        right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .frame {
+        padding: 100px 100px 50px 100px;
+    }
+    .advertising {
+        padding: 20px 100px;
+        font-size: 11px;
+    }
+    .back {
+        padding: 9px 13px;
+        font-size: 10px;
+        border-radius: 10px;
+        right: 100px;
+        top: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .frame {
+        padding: 60px 40px 30px 40px;
+    }
+    .advertising {
+        padding: 20px 40px;
+        font-size: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .advertising .developers {
+        margin-top: 10px;
+    }
+    .back {
+        padding: 6px 10px;
+        font-size: 8px;
+        border-radius: 6px;
+        right: 40px;
+        top: 20px;
+    }
+    h1 {
+        font-weight: 800;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    h3 {
+        color: #263238;
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .advertising {
+        font-size: 9px;
+    }
+    h1 {
+        margin-bottom: 22px;
+        font-size: 17px;
+    }
+    h3 {
+        margin: 6px 0px;
+        font-size: 13px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .advertising {
+        font-size: 8px;
+        padding: 12px 40px;
+    }
+    h1 {
+        margin-bottom: 22px;
+        font-size: 14px;
+    }
+    h3 {
+        margin: 6px 0px;
+        font-size: 10px;
+    }
+    p {
+        font-size: 9px;
+    }
+    .back {
+        padding: 5px 6px;
+        font-size: 7px;
+        border-radius: 5px;
+    }
+}
+.button{
+    color: rgb(223, 223, 223);
+}
+.button:hover{
+    color: rgb(22, 22, 22);
+}
